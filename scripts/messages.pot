@@ -1,0 +1,919 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-23 22:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/acqua.py:44
+msgid "You need to install GTKv2"
+msgstr ""
+
+#: src/acqua.py:50
+msgid "You need to install pysqlite"
+msgstr ""
+
+#: src/acqua.py:194
+msgid ">> Salvo le impostazioni prima di uscire"
+msgstr ""
+
+#: src/app.py:54
+msgid "_Acquario"
+msgstr ""
+
+#: src/app.py:55
+msgid "_Calcoli"
+msgstr ""
+
+#: src/app.py:55
+msgid "Calcoli..."
+msgstr ""
+
+#: src/app.py:57
+msgid "_Vasche"
+msgstr ""
+
+#: src/app.py:57
+msgid "Vasche..."
+msgstr ""
+
+#: src/app.py:59
+msgid "_Test"
+msgstr ""
+
+#: src/app.py:59 src/test.py:358
+msgid "Test"
+msgstr ""
+
+#: src/app.py:61
+msgid "_Pesci"
+msgstr ""
+
+#: src/app.py:61
+msgid "Pesci..."
+msgstr ""
+
+#: src/app.py:63
+msgid "_Piante"
+msgstr ""
+
+#: src/app.py:63
+msgid "Piante..."
+msgstr ""
+
+#: src/app.py:65
+msgid "_Invertebrati"
+msgstr ""
+
+#: src/app.py:65
+msgid "Invertebrati..."
+msgstr ""
+
+#: src/app.py:69
+msgid "_Quit"
+msgstr ""
+
+#: src/app.py:69
+msgid "Esci da Py-Acqua"
+msgstr ""
+
+#: src/app.py:71
+msgid "_Impostazioni"
+msgstr ""
+
+#: src/app.py:73
+msgid "_Tips Tricks"
+msgstr ""
+
+#: src/app.py:73
+msgid "Tips and Tricks..."
+msgstr ""
+
+#: src/app.py:75
+msgid "_Skin"
+msgstr ""
+
+#: src/app.py:75
+msgid "Skin..."
+msgstr ""
+
+#: src/app.py:77
+msgid "_Web Update"
+msgstr ""
+
+#: src/app.py:77
+msgid "Aggiorna PyAcqua"
+msgstr ""
+
+#: src/app.py:79
+msgid "_Lingua"
+msgstr ""
+
+#: src/app.py:79
+msgid "Selezione Lingua..."
+msgstr ""
+
+#: src/app.py:81
+msgid "Plugins"
+msgstr ""
+
+#: src/app.py:83
+msgid "_Manager"
+msgstr ""
+
+#: src/app.py:83
+msgid "Plug-in..."
+msgstr ""
+
+#: src/app.py:87 src/app.py:92
+msgid "_Aiuto"
+msgstr ""
+
+#: src/app.py:89
+msgid "_Informazioni"
+msgstr ""
+
+#: src/app.py:89
+msgid "Riguardo Py-Acqua"
+msgstr ""
+
+#: src/app.py:92
+msgid "Aiuto..."
+msgstr ""
+
+#: src/app.py:276
+msgid "Prova a vedere su http://pyacqua.altervista.org"
+msgstr ""
+
+#: src/calcoli.py:29
+msgid "Calcoli"
+msgstr ""
+
+#: src/calcoli.py:39
+msgid "Valori"
+msgstr ""
+
+#: src/calcoli.py:39
+msgid "Risultati"
+msgstr ""
+
+#: src/calcoli.py:51 src/test.py:101
+msgid "Vasca:"
+msgstr ""
+
+#: src/calcoli.py:52
+msgid "Altezza in cm:"
+msgstr ""
+
+#: src/calcoli.py:53
+msgid "Lunghezza in cm:"
+msgstr ""
+
+#: src/calcoli.py:54
+msgid "Larghezza in cm:"
+msgstr ""
+
+#: src/calcoli.py:58 src/vasca.py:39 src/vasca.py:75
+msgid "Dolce"
+msgstr ""
+
+#: src/calcoli.py:59 src/vasca.py:39 src/vasca.py:77
+msgid "Marino"
+msgstr ""
+
+#: src/calcoli.py:87 src/calcoli.py:125
+msgid "Volume:"
+msgstr ""
+
+#: src/calcoli.py:88
+msgid "Piante Inseribili:"
+msgstr ""
+
+#: src/calcoli.py:89
+msgid "Numero di pesci 3-4 cm:"
+msgstr ""
+
+#: src/calcoli.py:95
+msgid "Numero di pesci 5-6 cm:"
+msgstr ""
+
+#: src/calcoli.py:96
+msgid "Watt per piante esigenti:"
+msgstr ""
+
+#: src/calcoli.py:97
+msgid "Watt per piante poco esigenti:"
+msgstr ""
+
+#: src/calcoli.py:126
+msgid "Luce per vasche di pesci:"
+msgstr ""
+
+#: src/calcoli.py:127
+msgid "Luce per coralli molli:"
+msgstr ""
+
+#: src/calcoli.py:128
+msgid "Luce per coralli duri:"
+msgstr ""
+
+#: src/calcoli.py:129
+msgid "Totale l/h in movimento:"
+msgstr ""
+
+#: src/calcoli.py:130
+msgid "Quantita di sabbia per dsb:"
+msgstr ""
+
+#: src/dbwindow.py:229 src/manutenzione.py:50
+msgid "Filtro"
+msgstr ""
+
+#: src/dbwindow.py:365
+msgid "Modalita' sola Lettura: Abilitata"
+msgstr ""
+
+#: src/dbwindow.py:370
+msgid "Modalita' sola Lettura: Disabilitata"
+msgstr ""
+
+#: src/engine.py:55
+#, python-format
+msgid ">> Carico <%s>"
+msgstr ""
+
+#: src/engine.py:58 src/engine.py:71
+msgid ">> Errori... Ignoro"
+msgstr ""
+
+#: src/engine.py:68
+#, python-format
+msgid ">> Carico <%s> (plugin dell'utente)"
+msgstr ""
+
+#: src/engine.py:104
+msgid ">> Ripristino il path originale"
+msgstr ""
+
+#: src/importa.py:34
+msgid "PyAcqua Databases"
+msgstr ""
+
+#: src/importa.py:37
+msgid "Seleziona Database"
+msgstr ""
+
+#: src/importa.py:47
+msgid "Tutti i file"
+msgstr ""
+
+#: src/importa.py:50
+msgid "Salva Database come..."
+msgstr ""
+
+#: src/importa.py:59
+msgid "Importa/Esporta Database"
+msgstr ""
+
+#: src/importa.py:73 src/importa.py:89
+msgid "Versione 0.8"
+msgstr ""
+
+#: src/importa.py:74 src/importa.py:90
+msgid "Versione attuale"
+msgstr ""
+
+#: src/importa.py:76
+msgid "Importa:"
+msgstr ""
+
+#: src/importa.py:78
+msgid "Esporta:"
+msgstr ""
+
+#: src/importa.py:133
+msgid "Seleziona un database da convertire"
+msgstr ""
+
+#: src/importa.py:139
+msgid "Il file esiste. Sovrascrivere?"
+msgstr ""
+
+#: src/impostazioni.py:157
+#, python-format
+msgid "** Errore nel tipo in %s"
+msgstr ""
+
+#: src/impostazioni.py:158
+#, python-format
+msgid "** Ignoro il nuovo valore %s (usero' il vecchio %s)"
+msgstr ""
+
+#: src/impostazioni.py:162
+#, python-format
+msgid "!! Errore nella conversione (%s -> %s)"
+msgstr ""
+
+#: src/impostazioni.py:191
+msgid "!! Errore mentre salvavo pyacqua.xml"
+msgstr ""
+
+#: src/inserisci.py:76
+msgid "Minimo"
+msgstr ""
+
+#: src/inserisci.py:77
+msgid "Massimo"
+msgstr ""
+
+#: src/inserisci.py:78
+msgid "Ideale"
+msgstr ""
+
+#: src/inserisci.py:81 src/test.py:83 src/test.py:316
+msgid "Ph"
+msgstr ""
+
+#: src/inserisci.py:82 src/test.py:83 src/test.py:316
+msgid "Kh"
+msgstr ""
+
+#: src/inserisci.py:83 src/test.py:83 src/test.py:316
+msgid "Gh"
+msgstr ""
+
+#: src/inserisci.py:84 src/test.py:83 src/test.py:316
+msgid "No2"
+msgstr ""
+
+#: src/inserisci.py:85 src/test.py:83 src/test.py:316
+msgid "No3"
+msgstr ""
+
+#: src/inserisci.py:86 src/test.py:84 src/test.py:317
+msgid "Conducibilita'"
+msgstr ""
+
+#: src/inserisci.py:87 src/test.py:84 src/test.py:187 src/test.py:317
+msgid "Ammoniaca"
+msgstr ""
+
+#: src/inserisci.py:88 src/test.py:84 src/test.py:187 src/test.py:317
+msgid "Ferro"
+msgstr ""
+
+#: src/inserisci.py:89 src/test.py:84 src/test.py:187 src/test.py:317
+msgid "Rame"
+msgstr ""
+
+#: src/inserisci.py:90 src/test.py:84 src/test.py:187 src/test.py:317
+msgid "Fosfati"
+msgstr ""
+
+#: src/inserisci.py:91 src/test.py:85 src/test.py:188 src/test.py:318
+msgid "Calcio"
+msgstr ""
+
+#: src/inserisci.py:92 src/test.py:85 src/test.py:188 src/test.py:318
+msgid "Magnesio"
+msgstr ""
+
+#: src/inserisci.py:93 src/test.py:85 src/test.py:318
+msgid "Densita'"
+msgstr ""
+
+#: src/inserisci.py:152
+msgid "Nessuna base"
+msgstr ""
+
+#: src/inserisci.py:166
+msgid "Nome per la nuova collezione:"
+msgstr ""
+
+#: src/inserisci.py:169
+msgid "Esiste gia' una collezione con lo stesso nome"
+msgstr ""
+
+#: src/inserisci.py:172
+msgid "Devi fornire un nome per la nuova collezione"
+msgstr ""
+
+#: src/invertebrati.py:34 src/manutenzione.py:35 src/pesci.py:34
+#: src/piante.py:34 src/plugin.py:41 src/spesa.py:35 src/test.py:316
+#: src/vasca.py:42
+msgid "Id"
+msgstr ""
+
+#: src/invertebrati.py:34 src/manutenzione.py:37 src/pesci.py:34
+#: src/piante.py:34 src/spesa.py:37 src/test.py:316 src/vasca.py:42
+msgid "Data"
+msgstr ""
+
+#: src/invertebrati.py:34 src/manutenzione.py:36 src/pesci.py:34
+#: src/piante.py:34 src/spesa.py:36 src/spesa.py:52 src/test.py:316
+#: src/vasca.py:42
+msgid "Vasca"
+msgstr ""
+
+#: src/invertebrati.py:34 src/manutenzione.py:40 src/pesci.py:34
+#: src/piante.py:34 src/spesa.py:40
+msgid "Quantita"
+msgstr ""
+
+#: src/invertebrati.py:34 src/manutenzione.py:39 src/pesci.py:34
+#: src/piante.py:34 src/plugin.py:41 src/spesa.py:39 src/vasca.py:42
+msgid "Nome"
+msgstr ""
+
+#: src/invertebrati.py:34 src/manutenzione.py:42 src/pesci.py:34
+#: src/piante.py:34 src/spesa.py:42 src/vasca.py:45
+msgid "Note"
+msgstr ""
+
+#: src/invertebrati.py:34 src/pesci.py:34 src/piante.py:34 src/spesa.py:43
+#: src/vasca.py:45
+msgid "Immagine"
+msgstr ""
+
+#: src/invertebrati.py:44 src/spesa.py:54
+msgid "Invertebrati"
+msgstr ""
+
+#: src/invertebrati.py:80 src/manutenzione.py:120 src/pesci.py:79
+#: src/piante.py:84 src/spesa.py:127 src/vasca.py:172
+#, python-format
+msgid "Row aggiornata (ID: %d)"
+msgstr ""
+
+#: src/invertebrati.py:107 src/manutenzione.py:150 src/pesci.py:106
+#: src/piante.py:113 src/spesa.py:156 src/test.py:480 src/vasca.py:209
+#, python-format
+msgid "Row aggiunta (ID: %d)"
+msgstr ""
+
+#: src/invertebrati.py:116 src/manutenzione.py:157 src/pesci.py:113
+#: src/piante.py:122 src/spesa.py:162 src/test.py:486 src/vasca.py:220
+#, python-format
+msgid "Row rimossa (ID: %d)"
+msgstr ""
+
+#: src/invertebrati.py:130 src/manutenzione.py:92 src/pesci.py:128
+#: src/piante.py:136 src/spesa.py:98 src/vasca.py:242
+msgid "Riepilogo"
+msgstr ""
+
+#: src/invertebrati.py:135 src/pesci.py:134 src/piante.py:142 src/test.py:384
+msgid "Modifica"
+msgstr ""
+
+#: src/invertebrati.py:136 src/pesci.py:135 src/piante.py:143 src/vasca.py:261
+msgid "Spesa"
+msgstr ""
+
+#: src/lang.py:32
+msgid "Selezione Lingua"
+msgstr ""
+
+#: src/lang.py:45
+msgid "Italiano"
+msgstr ""
+
+#: src/lang.py:46
+msgid "Inglese"
+msgstr ""
+
+#: src/lang.py:62
+msgid "Seleziona Lingua:"
+msgstr ""
+
+#: src/manutenzione.py:38 src/spesa.py:38
+msgid "Tipo"
+msgstr ""
+
+#: src/manutenzione.py:41
+msgid "Prossima volta"
+msgstr ""
+
+#: src/manutenzione.py:50 src/spesa.py:53
+msgid "Fertilizzante"
+msgstr ""
+
+#: src/merger.py:13
+msgid ">> Controllo"
+msgstr ""
+
+#: src/merger.py:17
+msgid "creato."
+msgstr ""
+
+#: src/merger.py:22
+#, python-format
+msgid ">> Path Rimosso (%s)"
+msgstr ""
+
+#: src/merger.py:24
+#, python-format
+msgid "!! Errore mentre rimuovevo %s (%s)"
+msgstr ""
+
+#: src/merger.py:61
+#, python-format
+msgid ">> File %s"
+msgstr ""
+
+#: src/merger.py:65
+#, python-format
+msgid ">> Elimino %s"
+msgstr ""
+
+#: src/merger.py:69 src/merger.py:81
+msgid "OK (file)"
+msgstr ""
+
+#: src/merger.py:72 src/merger.py:84
+msgid "OK (dir)"
+msgstr ""
+
+#: src/merger.py:78
+msgid ">> Checksum corretto. Adesso sposto ;)"
+msgstr ""
+
+#: src/merger.py:89
+msgid "!! Errore nel checksum"
+msgstr ""
+
+#: src/merger.py:91
+msgid ">> Pulisco la directory dell'Update"
+msgstr ""
+
+#: src/merger.py:96
+msgid ">> Aggiornamento disponibile. Procedo con il merging dei file"
+msgstr ""
+
+#: src/merger.py:99
+msgid ">> Nessun aggiornamento da concludere."
+msgstr ""
+
+#: src/pesci.py:49 src/spesa.py:52
+msgid "Pesci"
+msgstr ""
+
+#: src/piante.py:46 src/spesa.py:53
+msgid "Piante"
+msgstr ""
+
+#: src/plugin.py:31
+msgid "Plug-in"
+msgstr ""
+
+#: src/plugin.py:41
+msgid "Descrizione"
+msgstr ""
+
+#: src/plugin.py:41
+msgid "Versione"
+msgstr ""
+
+#: src/plugin.py:41
+msgid "Autore"
+msgstr ""
+
+#: src/plugin.py:92
+msgid "PyAcqua Plugins"
+msgstr ""
+
+#: src/plugin.py:95
+msgid "Seleziona un Plugin per PyAcqua"
+msgstr ""
+
+#: src/skin.py:30 src/skin.py:58
+msgid "Skin"
+msgstr ""
+
+#: src/skin.py:138
+msgid "Seleziona Immagine"
+msgstr ""
+
+#: src/skin.py:141
+msgid "Inserisci il nome per il nuovo skin"
+msgstr ""
+
+#: src/skin.py:153
+msgid "Devi riavviare per far si che tutte le modifiche siano applicate."
+msgstr ""
+
+#: src/spesa.py:41
+msgid "Prezzo"
+msgstr ""
+
+#: src/spesa.py:54
+msgid "Varie"
+msgstr ""
+
+#: src/test.py:66
+msgid "Selezione Vasche"
+msgstr ""
+
+#: src/test.py:75
+msgid "Plot"
+msgstr ""
+
+#: src/test.py:102
+msgid "Valori:"
+msgstr ""
+
+#: src/test.py:167
+msgid "PyAcqua - Grafico"
+msgstr ""
+
+#: src/test.py:186
+msgid "pH"
+msgstr ""
+
+#: src/test.py:186
+msgid "KH"
+msgstr ""
+
+#: src/test.py:186
+msgid "GH"
+msgstr ""
+
+#: src/test.py:186
+msgid "NO2"
+msgstr ""
+
+#: src/test.py:186
+msgid "NO3"
+msgstr ""
+
+#: src/test.py:187
+msgid "Conducibilita"
+msgstr ""
+
+#: src/test.py:188
+msgid "Densita"
+msgstr ""
+
+#: src/test.py:227
+msgid "%d/%m"
+msgstr ""
+
+#: src/test.py:263
+msgid "Salva Grafico..."
+msgstr ""
+
+#: src/test.py:318
+msgid "Limiti"
+msgstr ""
+
+#: src/test.py:387
+msgid "Grafico"
+msgstr ""
+
+#: src/test.py:389
+msgid "Impostazioni"
+msgstr ""
+
+#: src/test.py:401
+msgid "<i>E' necessario matplotlib per i grafici.</i>"
+msgstr ""
+
+#: src/test.py:451
+#, python-format
+msgid "Row Aggiornata (ID: %d"
+msgstr ""
+
+#: src/tips.py:39
+msgid "Tips of the Day"
+msgstr ""
+
+#: src/tips.py:57
+msgid "Non mostrare al prossimo avvio"
+msgstr ""
+
+#: src/tips.py:105
+msgid ""
+"\n"
+"\n"
+"Dalle FAQ di it.hobby.acquari http://www.maughe.it/faq/faq.htm"
+msgstr ""
+
+#: src/tray.py:33
+msgid "!! Errore: il modulo per la tray non puo' essere importato"
+msgstr ""
+
+#: src/tray.py:103
+msgid "PyAcqua"
+msgstr ""
+
+#: src/tray.py:103
+msgid ""
+"PyAcqua avviato.\n"
+"Premi su questa icona per ridurlo a icona.\n"
+"Ripremi su questa icona per ripristinare."
+msgstr ""
+
+#: src/utils.py:127
+msgid "Seleziona una data"
+msgstr ""
+
+#: src/utils.py:315
+msgid "Mostra/Nascondi"
+msgstr ""
+
+#: src/utils.py:387
+msgid "Immagini"
+msgstr ""
+
+#: src/utils.py:534 src/utils.py:547
+#, python-format
+msgid "Errore mentre copiavo (%s)"
+msgstr ""
+
+#: src/vasca.py:39 src/vasca.py:76
+msgid "Dolce Tropicale"
+msgstr ""
+
+#: src/vasca.py:39 src/vasca.py:78
+msgid "Marino Mediterraneo"
+msgstr ""
+
+#: src/vasca.py:39 src/vasca.py:79
+msgid "Paludario"
+msgstr ""
+
+#: src/vasca.py:39 src/vasca.py:80
+msgid "Salmastro"
+msgstr ""
+
+#: src/vasca.py:42
+msgid "Litri"
+msgstr ""
+
+#: src/vasca.py:43
+msgid "Tipo Acquario"
+msgstr ""
+
+#: src/vasca.py:43
+msgid "Tipo Filtro"
+msgstr ""
+
+#: src/vasca.py:44
+msgid "Impianto Co2"
+msgstr ""
+
+#: src/vasca.py:44
+msgid "Illuminazione"
+msgstr ""
+
+#: src/vasca.py:45
+msgid "Reattore di calcio"
+msgstr ""
+
+#: src/vasca.py:45
+msgid "Schiumatoio"
+msgstr ""
+
+#: src/vasca.py:45
+msgid "Riscaldamento Refrigerazione"
+msgstr ""
+
+#: src/vasca.py:66
+msgid "Vasche"
+msgstr ""
+
+#: src/vasca.py:116 src/vasca.py:117 src/vasca.py:121 src/vasca.py:122
+msgid "Assente"
+msgstr ""
+
+#: src/vasca.py:257
+msgid "Modifica Vasche"
+msgstr ""
+
+#: src/vasca.py:259
+msgid "Manutenzione"
+msgstr ""
+
+#: src/webupdate.py:34
+#, python-format
+msgid "!! Errore mentre scaricavo da %s"
+msgstr ""
+
+#: src/webupdate.py:58
+msgid "File"
+msgstr ""
+
+#: src/webupdate.py:58
+msgid "Azione"
+msgstr ""
+
+#: src/webupdate.py:58
+msgid "Bytes"
+msgstr ""
+
+#: src/webupdate.py:58
+msgid "MD5"
+msgstr ""
+
+#: src/webupdate.py:64
+msgid "%"
+msgstr ""
+
+#: src/webupdate.py:74
+msgid "Aggiorna"
+msgstr ""
+
+#: src/webupdate.py:80
+msgid "Controlla Aggiornamenti"
+msgstr ""
+
+#: src/webupdate.py:106
+#, python-format
+msgid ">> Creo un thread per %s"
+msgstr ""
+
+#: src/webupdate.py:125
+msgid "Impossibile recuperare la lista dei file dal server."
+msgstr ""
+
+#: src/webupdate.py:129
+#, python-format
+msgid "Errore durante lo scaricamento della lista dei file (HTTP %d)"
+msgstr ""
+
+#: src/webupdate.py:137
+msgid ">> Nuovi file aggiunti dall'ultimo update."
+msgstr ""
+
+#: src/webupdate.py:139
+msgid ">> Qualche file e' stato zappato dall'ultimo update."
+msgstr ""
+
+#: src/webupdate.py:151
+#, python-format
+msgid ">> Il checksum e' differente. Aggiungo il file %s"
+msgstr ""
+
+#: src/webupdate.py:155
+msgid ">> Bene! Tutto questo lavoro per niente!"
+msgstr ""
+
+#: src/webupdate.py:157
+#, python-format
+msgid ">> U0z! Collisione di MD5 per il file %s"
+msgstr ""
+
+#: src/webupdate.py:158
+msgid ">> Comunque il file deve essere aggiunto -_-"
+msgstr ""
+
+#: src/webupdate.py:162
+#, python-format
+msgid ">> Questo file deve essere cancellato %s"
+msgstr ""
+
+#: src/webupdate.py:163
+msgid "Elimina"
+msgstr ""
+
+#: src/webupdate.py:166 src/webupdate.py:171
+msgid "Scarica"
+msgstr ""
+
+#: src/webupdate.py:170
+#, python-format
+msgid ">> Questo file deve essere aggiunto %s"
+msgstr ""
+
+#: src/webupdate.py:189
+msgid ">> Nessun file da ricevere"
+msgstr ""
+
+#: src/webupdate.py:191
+#, python-format
+msgid "!! Errori. Il sospetto e' %s (response: %d)"
+msgstr ""
+
+#: src/webupdate.py:204
+#, python-format
+msgid ">> File ricevuto %s"
+msgstr ""
+
+#: src/webupdate.py:236
+msgid ">> Questo file deve essere aggiunto (setto 0 come checksum)"
+msgstr ""
+
+#: src/webupdate.py:250
+msgid "Riavvia per procedere all'aggiornamento di PyAcqua"
+msgstr ""
