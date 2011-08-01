@@ -1,0 +1,98 @@
+#!/bin/env python
+
+#Copyright (C) 2005, 2007 Py-Acqua
+#http://www.pyacqua.net
+#email: info@pyacqua.net
+#
+#
+#Py-Acqua is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#Py-Acqua is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with Py-Acqua; if not, write to the Free Software
+#    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+"""
+Update manager.
+
+$Id: manager 903 2007-12-22 00:19:08Z stack_isteric $
+"""
+
+__author__    = "Francesco Piccinno <stack.box@gmail.com>"
+__version__   = "$Revision: 903 $"
+__copyright__ = "Copyright (c) 2007 Francesco Piccinno"
+
+import sys, os.path
+
+from xmlreport import ListCreator, IndexMaker
+from database import DatabaseUpdater
+
+from optparse import OptionParser
+
+if __name__ == "__main__":
+	list_parser = OptionParser("%s mklist <database> <info-file>" % sys.argv[0])
+	db_parser = OptionParser("%s mkdb <program> <path> <database>" % sys.argv[0])
+	idx_parser = OptionParser("%s mkindex <database> <outfile>" % sys.argv[0])
+
+	db_parser.add_option("-m", "--main", dest="main_version", type="int",
+		help="the main version for program")
+	db_parser.add_option("-v", "--version", dest="version", type="int",
+		help="the second version for program")
+	db_parser.add_option("-r", "--revision", dest="revision", type="int",
+		help="the revision for program")
+	
+	if len(sys.argv) < 2:
+		list_parser.print_help()
+		print
+		print "OR"
+		print
+		db_parser.print_help()
+		print
+		print "OR"
+		print
+		idx_parser.print_help()
+	else:
+		if sys.argv[1] == "mklist":
+			(options, args) = list_parser.parse_args(sys.argv[2:])
+
+			if len(args) != 2:
+				list_parser.print_help()
+			else:
+				ListCreator(args[0], args[1]).create()
+		elif sys.argv[1] == "mkindex":
+			(options, args) = idx_parser.parse_args(sys.argv[2:])
+			
+			if len(args) != 2:
+				idx_parser.print_help()
+			else:
+				IndexMaker(args[0], args[1]).create()
+		elif sys.argv[1] == "mkdb":
+			(options, args) = db_parser.parse_args(sys.argv[2:])
+			
+			if not os.path.exists(args[2]) and (options.main_version == None or options.version == None or options.revision == None):
+				print "You must provide -m -v and -r option for tagging the dibbi` :)"
+			else:
+				if len(args) != 3:
+					db_parser.print_help()
+				else:
+					DatabaseUpdater(
+						args[0], args[1], args[2],
+						options.main_version, options.version, options.revision
+					).update()
+		else:
+			list_parser.print_help()
+			print
+			print "OR"
+			print
+			db_parser.print_help()
+			print
+			print "OR"
+			print
+			idx_parser.print_help()

@@ -1,0 +1,34 @@
+Lato server:
+	@ Sul server e' presente il file pyacqua.db (win32 - source - ...)
+	@ Sul server e' presente il file pyacqua-update.xml
+	@ Sul server e' presente il file pyacqua-win32-update.xml
+
+Procedura Update:
+	@ Sul computer locale e' presente il file pyacqua.db precedentemente
+	  scaricato dal server.
+	@ Sul computer locale e' presente il file pyacqua-update.xml (per la versione source)
+	@ Facciamo un get dal server
+		http://server/pyacqua-update.xml
+	@ Controlliamo se le main version sono uguali altrimenti messaggio con i link dei downloads
+	@ Scarichiamo pyacqua.db
+	@ goto Database Staff
+
+Database Staff:
+	@ for sulle entry della tabella directory
+	@ confronto sulla rev .. se differenti facciamo uno scan sui file
+	@ se i file hanno revision differente scarichiamo utilizzando lo schema delle dir
+	@ facciamo il merge dei file
+	@ goto Analisi finale
+
+Analisi finale:
+	@ facciamo uno scan ricorsivo nella directory del programma
+	@ controlliamo i checksum dei file e il numero dei file nelle directory
+	@ warning se il numero dei file nelle directory e' differente
+	@ se qlc md5 e' sfasato segnaliamo un errore (force update)
+
+(bisognerebbe implementare un force update e scaricare ogni file come se fossero tutti sballati)
+
+Il file xml-report.py genera report automatici di aggiornamento per ogni sotto-programma
+I sottoprogrammi sono listati nel file pyacqua.db
+Per l'aggiornamento quindi dobbiamo fare un for sulle program_entry del database
+L'utente checckera quali componenti aggiornare.

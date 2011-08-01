@@ -1,0 +1,17 @@
+NOTE PER LA BUILD WIN32:
+1) Rimuovere la directory dist/ o almeno il file dist/list.xml (si preferisce la prima)
+2) C:\Documents and Settings\Administrator\Desktop\build\trunk>c:\python25\python win-setup.py py2exe
+3) Creare l'installer con nsi.
+
+Per l'update dopo il secondo passo:
+3) copiare tutto il contenuto di dist in update/windows
+4) copiare il file list.xml contenuto in update/windows in update (../) con il nome win32-list.xml
+
+BUGS NOTI:
+- nel processo di update per windows non e' possibile l'aggiornamento del launcher (pyacqua.exe)
+  per errori di accesso condiviso. Windows merda :D
+- il merger non fa un controllo sulla size dei file ma solo sul checksum MD5, fatto da attribuire
+  a windows che non supporta funzioni posix standard come stat, che ritorna in certi momenti
+  valori inattendibili. Il tutto e' da riverificare nelle prossime versioni.
+
+Francesco

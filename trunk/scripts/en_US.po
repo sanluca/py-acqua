@@ -1,0 +1,897 @@
+# translation of en_US.po to Italiano
+# English translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# <stack@dannazione>, 2006.
+# Francesco Piccinno <stack.box@gmail,com>, 2006.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: en_US\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-07-17 15:21+0200\n"
+"PO-Revision-Date: 2006-07-17 15:29+0200\n"
+"Last-Translator: Francesco Piccinno <stack.box@gmail,com>\n"
+"Language-Team: Italiano\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
+
+#: acqua.py:65
+msgid "You need to install pyGTK or GTKv2"
+msgstr "You need to install pyGTK or GTKv2 "
+
+#: acqua.py:71
+msgid "You need to install pysqlite"
+msgstr "You need to install pysqlite "
+
+#: app.py:48
+msgid "_Acquario"
+msgstr "_Aquarius"
+
+#: app.py:49
+msgid "_Calcoli"
+msgstr "_Calculates"
+
+#: app.py:49
+msgid "Calcoli..."
+msgstr "Calculates..."
+
+#: app.py:51
+msgid "_Vasche"
+msgstr "_Bathtubs"
+
+#: app.py:51
+msgid "Vasche..."
+msgstr "Bathtubs..."
+
+#: app.py:53
+msgid "_Test"
+msgstr "_Test "
+
+#: app.py:53 files/test.py:334
+msgid "Test"
+msgstr "Test "
+
+#: app.py:55
+msgid "_Pesci"
+msgstr "_Fish"
+
+#: app.py:55
+msgid "Pesci..."
+msgstr "Fish..."
+
+#: app.py:57
+msgid "_Piante"
+msgstr "_Plants"
+
+#: app.py:57
+msgid "Piante..."
+msgstr "Plants..."
+
+#: app.py:59
+msgid "_Invertebrati"
+msgstr "_Invertebrates"
+
+#: app.py:59
+msgid "Invertebrati..."
+msgstr "Invertebrates..."
+
+#: app.py:61
+msgid "_Importa/Esporta..."
+msgstr ""
+
+#: app.py:61
+msgid "Importa/Esporta..."
+msgstr ""
+
+#: app.py:63
+msgid "_Quit"
+msgstr "_Quit "
+
+#: app.py:63
+msgid "Esci da Py-Acqua"
+msgstr "Exit of Py-Acqua"
+
+#: app.py:65
+msgid "_Impostazioni"
+msgstr "_Formulations"
+
+#: app.py:67
+msgid "_Tips Tricks"
+msgstr "_Tips Tricks "
+
+#: app.py:67
+msgid "Tips and Tricks..."
+msgstr "Tips and Tricks... "
+
+#: app.py:69
+msgid "_Fertilizzante"
+msgstr "_Fertilizer"
+
+#: app.py:69
+msgid "fertilizzante..."
+msgstr "fertilizer..."
+
+#: app.py:71
+msgid "_Filtro"
+msgstr "_Filter"
+
+#: app.py:71
+msgid "filtro..."
+msgstr "filter..."
+
+#: app.py:73
+msgid "_Spese"
+msgstr "_Expenses"
+
+#: app.py:73
+msgid "Spese..."
+msgstr "Expenses..."
+
+#: app.py:75
+msgid "_Skin"
+msgstr "_Skin "
+
+#: app.py:75
+msgid "Skin..."
+msgstr "Skin... "
+
+#: app.py:77
+msgid "_Lingua"
+msgstr ""
+
+#: app.py:77
+msgid "Selezione Lingua..."
+msgstr ""
+
+#: app.py:79
+msgid "Plugins"
+msgstr "Plugins "
+
+#: app.py:81
+msgid "_Manager"
+msgstr "_Manager "
+
+#: app.py:81
+msgid "Plug-in..."
+msgstr "Plug-in... "
+
+#: app.py:85 app.py:89
+msgid "_Aiuto"
+msgstr "_Help"
+
+#: app.py:87
+msgid "_Informazioni"
+msgstr "_Information"
+
+#: app.py:87
+msgid "Riguardo Py-Acqua"
+msgstr "Care Py-Acqua"
+
+#: app.py:89
+msgid "Aiuto..."
+msgstr "Help..."
+
+#: update.py:11 files/update.py:11
+msgid "Update"
+msgstr "Update "
+
+#: files/calcoli.py:29
+msgid "Calcoli"
+msgstr "Calculates"
+
+#: files/calcoli.py:38
+msgid "Valori"
+msgstr "Values"
+
+#: files/calcoli.py:38
+msgid "Risultati"
+msgstr "Result"
+
+#: files/calcoli.py:50 files/test.py:111
+msgid "Vasca:"
+msgstr "Bathtub:"
+
+#: files/calcoli.py:51
+msgid "Altezza in cm:"
+msgstr "Height in cm:"
+
+#: files/calcoli.py:52
+msgid "Lunghezza in cm:"
+msgstr "Length in cm:"
+
+#: files/calcoli.py:53
+msgid "Larghezza in cm:"
+msgstr "Width in cm:"
+
+#: files/calcoli.py:57 files/vasca.py:36 files/vasca.py:64
+msgid "Dolce"
+msgstr "Cake"
+
+#: files/calcoli.py:58 files/vasca.py:36 files/vasca.py:72
+msgid "Marino"
+msgstr "Marine"
+
+#: files/calcoli.py:86 files/calcoli.py:120
+msgid "Volume:"
+msgstr "Volume: "
+
+#: files/calcoli.py:87
+msgid "Piante Inseribili:"
+msgstr "Plants to insert:"
+
+#: files/calcoli.py:88
+msgid "Numero di pesci 3-4 cm:"
+msgstr "Number of fish 3-4 cm:"
+
+#: files/calcoli.py:94
+msgid "Numero di pesci 5-6 cm:"
+msgstr "Number of fish 5-6 cm:"
+
+#: files/calcoli.py:95
+msgid "Watt per piante esigenti:"
+msgstr "Watt for demanding plants:"
+
+#: files/calcoli.py:96
+msgid "Watt per piante poco esigenti:"
+msgstr "Watt for little demanding plants:"
+
+#: files/calcoli.py:121
+msgid "Watt per piante:"
+msgstr "Watt for plants:"
+
+#: files/engine.py:55
+#, python-format
+msgid "Carico <%s>"
+msgstr "Cargo <%s>"
+
+#: files/engine.py:58
+msgid "Errori... Ignoro"
+msgstr "Errors... i ignore"
+
+#: files/fertilizzante.py:34 files/filtro.py:32 files/invertebrati.py:30
+#: files/pesci.py:30 files/piante.py:30 files/plugin.py:44 files/spese.py:30
+#: files/test.py:301 files/vasca.py:39
+msgid "Id"
+msgstr "Id "
+
+#: files/fertilizzante.py:34 files/filtro.py:32 files/invertebrati.py:30
+#: files/pesci.py:30 files/piante.py:30 files/spese.py:30 files/test.py:301
+#: files/vasca.py:39
+msgid "Data"
+msgstr "Date"
+
+#: files/fertilizzante.py:34 files/invertebrati.py:30 files/pesci.py:30
+#: files/piante.py:30 files/plugin.py:44 files/spese.py:30 files/vasca.py:39
+msgid "Nome"
+msgstr "Name"
+
+#: files/fertilizzante.py:34
+msgid "Quantita'"
+msgstr "Amount"
+
+#: files/fertilizzante.py:34 files/filtro.py:32
+msgid "Prossima volta"
+msgstr "Next time"
+
+#: files/fertilizzante.py:34 files/filtro.py:32 files/invertebrati.py:30
+#: files/pesci.py:30 files/piante.py:30 files/spese.py:30 files/vasca.py:42
+msgid "Note"
+msgstr "Note "
+
+#: files/fertilizzante.py:41 files/spese.py:40
+msgid "Fertilizzante"
+msgstr "Fertilizer"
+
+#: files/fertilizzante.py:57 files/filtro.py:55 files/invertebrati.py:58
+#: files/pesci.py:59 files/piante.py:59 files/spese.py:63 files/vasca.py:156
+#, python-format
+msgid "Row aggiornata (ID: %d)"
+msgstr "Row update (ID: %d)"
+
+#: files/fertilizzante.py:71 files/filtro.py:68 files/invertebrati.py:77
+#: files/pesci.py:78 files/piante.py:78 files/spese.py:84 files/test.py:446
+#: files/vasca.py:182
+#, python-format
+msgid "Row aggiunta (ID: %d)"
+msgstr "Row add (ID: %d)"
+
+#: files/fertilizzante.py:75 files/filtro.py:72 files/invertebrati.py:81
+#: files/pesci.py:82 files/piante.py:82 files/spese.py:88 files/test.py:452
+#: files/vasca.py:186
+#, python-format
+msgid "Row rimossa (ID: %d)"
+msgstr "Row delete (ID: %d)"
+
+#: files/filtro.py:40 files/spese.py:40
+msgid "Filtro"
+msgstr "Filter"
+
+#: files/filtro.py:81 files/invertebrati.py:90 files/pesci.py:91
+#: files/piante.py:91 files/spese.py:97 files/vasca.py:195
+msgid "Riepilogo"
+msgstr "Reassumed"
+
+#: files/importa.py:34
+#, fuzzy
+msgid "PyAcqua Databases"
+msgstr "Database "
+
+#: files/importa.py:37
+#, fuzzy
+msgid "Seleziona Database"
+msgstr "It selects one given"
+
+#: files/importa.py:47
+msgid "Tutti i file"
+msgstr ""
+
+#: files/importa.py:50
+msgid "Salva Database come..."
+msgstr ""
+
+#: files/importa.py:59
+msgid "Importa/Esporta Database"
+msgstr ""
+
+#: files/importa.py:71 files/importa.py:87
+#, fuzzy
+msgid "Versione 0.8"
+msgstr "Version"
+
+#: files/importa.py:72 files/importa.py:88
+#, fuzzy
+msgid "Versione attuale"
+msgstr "Version"
+
+#: files/importa.py:74
+msgid "Importa:"
+msgstr ""
+
+#: files/importa.py:76
+msgid "Esporta:"
+msgstr ""
+
+#: files/importa.py:127
+#, fuzzy
+msgid "Seleziona un database da convertire"
+msgstr "It selects one given"
+
+#: files/importa.py:129
+msgid "Seleziona il file su cui salvare"
+msgstr ""
+
+#: files/importa.py:132
+msgid "Il file esiste. Sovrascrivere?"
+msgstr ""
+
+#: files/impostazioni.py:122
+#, python-format
+msgid "Errore nel salvataggio del file di configurazione (%s)"
+msgstr "Error·in·rescue·of·rows·of·configuration (%s)"
+
+#: files/impostazioni.py:173
+msgid "Errore nel caricamento dei valori.. uso quelli di default"
+msgstr "Error·in·loading·of i·values.·use·those·of·default"
+
+#: files/impostazioni.py:175
+msgid "File config.cfg non trovato.. salvo la configurazione di default"
+msgstr "File config.cfg not·found.·but··configuration·of·default"
+
+#: files/inserisci.py:42
+msgid "Minimo"
+msgstr "Min"
+
+#: files/inserisci.py:43
+msgid "Massimo"
+msgstr "Max"
+
+#: files/inserisci.py:44 files/test.py:93 files/test.py:301
+msgid "Ph"
+msgstr "Ph "
+
+#: files/inserisci.py:45 files/test.py:93 files/test.py:301
+msgid "Kh"
+msgstr "Kh "
+
+#: files/inserisci.py:46 files/test.py:93 files/test.py:301
+msgid "Gh"
+msgstr "Gh "
+
+#: files/inserisci.py:47 files/test.py:93 files/test.py:301
+msgid "No2"
+msgstr "No2 "
+
+#: files/inserisci.py:48 files/test.py:93 files/test.py:301
+msgid "No3"
+msgstr "No3 "
+
+#: files/inserisci.py:49 files/test.py:94 files/test.py:302
+msgid "Conducibilita'"
+msgstr "Conductivity"
+
+#: files/inserisci.py:50 files/test.py:94 files/test.py:197 files/test.py:302
+msgid "Ammoniaca"
+msgstr "Ammonia"
+
+#: files/inserisci.py:51 files/test.py:94 files/test.py:197 files/test.py:302
+msgid "Ferro"
+msgstr "Iron"
+
+#: files/inserisci.py:52 files/test.py:94 files/test.py:197 files/test.py:302
+msgid "Rame"
+msgstr "Branch"
+
+#: files/inserisci.py:53 files/test.py:94 files/test.py:197 files/test.py:302
+msgid "Fosfati"
+msgstr "Phosphates"
+
+#: files/inserisci.py:54 files/test.py:95 files/test.py:198 files/test.py:303
+msgid "Calcio"
+msgstr "Soccer"
+
+#: files/inserisci.py:55 files/test.py:95 files/test.py:198 files/test.py:303
+msgid "Magnesio"
+msgstr "Magnesium"
+
+#: files/inserisci.py:56 files/test.py:95 files/test.py:303
+msgid "Densita'"
+msgstr "Density"
+
+#: files/invertebrati.py:30 files/pesci.py:30 files/piante.py:30
+#: files/spese.py:30 files/spese.py:40 files/test.py:301 files/vasca.py:39
+msgid "Vasca"
+msgstr "Bathtub"
+
+#: files/invertebrati.py:30 files/pesci.py:30 files/piante.py:30
+#: files/spese.py:30
+msgid "Quantita"
+msgstr "Amount"
+
+#: files/invertebrati.py:30 files/pesci.py:30 files/piante.py:30
+#: files/spese.py:30 files/vasca.py:42
+msgid "Immagine"
+msgstr "Image"
+
+#: files/invertebrati.py:40
+msgid "Invertebrati"
+msgstr "Invertebrates"
+
+#: files/lang.py:30
+msgid "PyAcqua - Selezione Lingua"
+msgstr ""
+
+#: files/lang.py:41
+msgid "Italiano"
+msgstr "Italy"
+
+#: files/lang.py:42
+msgid "Inglese"
+msgstr "English"
+
+#: files/lang.py:58
+#, fuzzy
+msgid "Seleziona Lingua:"
+msgstr "Select image"
+
+#: files/pesci.py:41
+msgid "Pesci"
+msgstr "Fish"
+
+#: files/piante.py:41
+msgid "Piante"
+msgstr "Plants"
+
+#: files/plugin.py:35
+msgid "Plug-in"
+msgstr "Plug-in"
+
+#: files/plugin.py:44
+msgid "Descrizione"
+msgstr "Description"
+
+#: files/plugin.py:44
+msgid "Versione"
+msgstr "Version"
+
+#: files/plugin.py:44
+msgid "Autore"
+msgstr "Author"
+
+#: files/plugin.py:95
+msgid "PyAcqua Plugins"
+msgstr "PyAcqua Plugins "
+
+#: files/plugin.py:98
+msgid "Seleziona un Plugin per PyAcqua"
+msgstr "It selects for Plugin for PyAcqua"
+
+#: files/skin.py:30 files/skin.py:57
+msgid "Skin"
+msgstr "Skin "
+
+#: files/skin.py:128
+msgid "Seleziona Immagine"
+msgstr "Select image"
+
+#: files/skin.py:131
+msgid "Inserisci il nome per il nuovo skin"
+msgstr "You insert name for new·skin"
+
+#: files/spese.py:30
+msgid "Tipologia"
+msgstr "Type"
+
+#: files/spese.py:30
+msgid "Prezzo"
+msgstr "Price"
+
+#: files/spese.py:40
+msgid "Pesce"
+msgstr "Fish"
+
+#: files/spese.py:40
+msgid "Pianta"
+msgstr "Plant"
+
+#: files/spese.py:40
+msgid "Invertebrato"
+msgstr "Invertebrate"
+
+#: files/spese.py:40
+msgid "Varie"
+msgstr "Several"
+
+#: files/spese.py:43
+msgid "Spese"
+msgstr "Expenses"
+
+#: files/test.py:76
+#, fuzzy
+msgid "Selezione Vasche"
+msgstr "Select image"
+
+#: files/test.py:85
+msgid "Plot"
+msgstr "Plot"
+
+#: files/test.py:112
+#, fuzzy
+msgid "Valori:"
+msgstr "Values"
+
+#: files/test.py:177
+#, fuzzy
+msgid "PyAcqua - Grafico"
+msgstr "_Aquarius"
+
+#: files/test.py:196
+msgid "pH"
+msgstr "pH"
+
+#: files/test.py:196
+msgid "KH"
+msgstr "KH"
+
+#: files/test.py:196
+msgid "GH"
+msgstr "GH"
+
+#: files/test.py:196
+#, fuzzy
+msgid "NO2"
+msgstr "No2 "
+
+#: files/test.py:196
+#, fuzzy
+msgid "NO3"
+msgstr "No3 "
+
+#: files/test.py:197
+#, fuzzy
+msgid "Conducibilita"
+msgstr "Conductivity"
+
+#: files/test.py:198
+#, fuzzy
+msgid "Densita"
+msgstr "Density"
+
+#: files/test.py:226
+msgid "%d/%m"
+msgstr "%d/%m"
+
+#: files/test.py:255
+#, fuzzy
+msgid "Salva Grafico..."
+msgstr "Diagram"
+
+#: files/test.py:353
+msgid "Modifica"
+msgstr ""
+
+#: files/test.py:356
+msgid "Grafico"
+msgstr "Diagram"
+
+#: files/test.py:358
+#, fuzzy
+msgid "Impostazioni"
+msgstr "_Formulations"
+
+#: files/test.py:370
+msgid "<i>E' necessario matplotlib per i grafici.</i>"
+msgstr ""
+
+#: files/test.py:419
+#, python-format
+msgid "Row Aggiornata (ID: %d"
+msgstr "Row update (ID: %d"
+
+#: files/tips.py:38
+msgid "Tips of the Day"
+msgstr "Tips of the Day "
+
+#: files/tips.py:54
+msgid "Non mostrare al prossimo avvio"
+msgstr "Not to show to the next start"
+
+#: files/tips.py:101
+msgid ""
+"\n"
+"\n"
+"Dalle FAQ di it.hobby.acquari http://www.maughe.it/faq/faq.htm"
+msgstr ""
+"\n"
+"\n"
+"Dalle FAQ di it.hobby.acquari http://www.maughe.it/faq/faq.htm "
+
+#: files/utils.py:45
+msgid "Seleziona una data"
+msgstr "It selects one given"
+
+#: files/utils.py:202
+msgid "Mostra/Nascondi"
+msgstr ""
+
+#: files/utils.py:274
+msgid "Immagini"
+msgstr "Image"
+
+#: files/utils.py:389 files/utils.py:402
+#, python-format
+msgid "Errore mentre copiavo (%s)"
+msgstr "Error while I copied  (%s)"
+
+#: files/vasca.py:36 files/vasca.py:68
+msgid "Dolce Tropicale"
+msgstr "Tropical cake"
+
+#: files/vasca.py:36 files/vasca.py:76
+msgid "Marino Mediterraneo"
+msgstr "The marine Mediterranean"
+
+#: files/vasca.py:36 files/vasca.py:80
+msgid "Paludario"
+msgstr "Paludario "
+
+#: files/vasca.py:36 files/vasca.py:84
+msgid "Salmastro"
+msgstr "Salmastro "
+
+#: files/vasca.py:39
+msgid "Litri"
+msgstr "Liters"
+
+#: files/vasca.py:40
+msgid "Tipo Acquario"
+msgstr "Type aquaius"
+
+#: files/vasca.py:40
+msgid "Tipo Filtro"
+msgstr "Type filter"
+
+#: files/vasca.py:41
+msgid "Impianto Co2"
+msgstr "System Co2"
+
+#: files/vasca.py:41
+msgid "Illuminazione"
+msgstr "Lighting system"
+
+#: files/vasca.py:42
+msgid "Reattore di calcio"
+msgstr "Soccer reactor"
+
+#: files/vasca.py:42
+msgid "Schiumatoio"
+msgstr "Schiumatoio "
+
+#: files/vasca.py:42
+msgid "Riscaldamento Refrigerazione"
+msgstr "Heating refrigeration "
+
+#: files/vasca.py:58
+msgid "Vasche"
+msgstr "Bathtub"
+
+#: files/vasca.py:112 files/vasca.py:113 files/vasca.py:117 files/vasca.py:118
+msgid "Assente"
+msgstr "Absent"
+
+#~ msgid "_Inserisci"
+#~ msgstr "_Insert"
+
+#~ msgid "Inserisci..."
+#~ msgstr "Insert..."
+
+#~ msgid "_Allarmi"
+#~ msgstr "_Alarms"
+
+#~ msgid "Allarmi..."
+#~ msgstr "Alarms..."
+
+#~ msgid "Allarmi"
+#~ msgstr "Alarms"
+
+#~ msgid "Ph basso"
+#~ msgstr "Ph low"
+
+#~ msgid "Ph alto"
+#~ msgstr "Ph high"
+
+#~ msgid "Ph ok"
+#~ msgstr "Ph ok "
+
+#~ msgid "Kh basso"
+#~ msgstr "Kh low"
+
+#~ msgid "Kh alto"
+#~ msgstr "Kh high"
+
+#~ msgid "Kh ok"
+#~ msgstr "Kh ok "
+
+#~ msgid "Gh basso"
+#~ msgstr "Gh low"
+
+#~ msgid "Gh alto"
+#~ msgstr "Gh high"
+
+#~ msgid "Gh ok"
+#~ msgstr "Gh ok "
+
+#~ msgid "No2 bassi"
+#~ msgstr "No2 low"
+
+#~ msgid "No2 alti"
+#~ msgstr "No2 high"
+
+#~ msgid "No2 ok"
+#~ msgstr "No2 ok "
+
+#~ msgid "No3 bassi"
+#~ msgstr "No3 low"
+
+#~ msgid "No3 alti"
+#~ msgstr "No3 high"
+
+#~ msgid "No3 ok"
+#~ msgstr "No3 ok "
+
+#~ msgid "Conducibilita' bassa"
+#~ msgstr "Conductivity low"
+
+#~ msgid "Conducibilita' alta"
+#~ msgstr "Conductivity high"
+
+#~ msgid "Conducibilita' ok"
+#~ msgstr "Conductivity ok "
+
+#~ msgid "Ammoniaca bassa"
+#~ msgstr "Ammonia low"
+
+#~ msgid "Ammoniaca alta"
+#~ msgstr "Ammonia high"
+
+#~ msgid "Ammoniaca ok"
+#~ msgstr "Ammonia ok"
+
+#~ msgid "Ferro basso"
+#~ msgstr "Iron low"
+
+#~ msgid "Ferro alto"
+#~ msgstr "Iron high"
+
+#~ msgid "Ferro ok"
+#~ msgstr "Iron ok"
+
+#~ msgid "Rame basso"
+#~ msgstr "Branch low"
+
+#~ msgid "Rame alto"
+#~ msgstr "Branch high"
+
+#~ msgid "Rame ok"
+#~ msgstr "Branch ok"
+
+#~ msgid "Fosfati bassi"
+#~ msgstr "Phosphates low"
+
+#~ msgid "Fosfati alti"
+#~ msgstr "Phosphates high"
+
+#~ msgid "Fosfati ok"
+#~ msgstr "Phosphates high"
+
+#~ msgid "Database Pesci"
+#~ msgstr "Database Fish"
+
+#~ msgid "Famiglia"
+#~ msgstr "Family"
+
+#~ msgid "Editing:"
+#~ msgstr "Editing: "
+
+#~ msgid "Cerca"
+#~ msgstr "Find"
+
+#~ msgid "Nome:"
+#~ msgstr "Name:"
+
+#~ msgid "Famiglia:"
+#~ msgstr "Family:"
+
+#~ msgid "Row eliminata (ID: %d)"
+#~ msgstr "Row delete (ID: %d)"
+
+#~ msgid "Aggiungi foto"
+#~ msgstr "Add photo"
+
+#~ msgid "Inserisci Test"
+#~ msgstr "Insert Test"
+
+#~ msgid "No"
+#~ msgstr "No "
+
+#~ msgid ""
+#~ "PyChart non installato.\n"
+#~ "Scaricalo da http://home.gna.org/pychart/"
+#~ msgstr ""
+#~ "PyChart not installed.\n"
+#~ "Download da http://home.gna.org/pychart/"
+
+#~ msgid "Cond."
+#~ msgstr "Cond. "
+
+#~ msgid "Ammon."
+#~ msgstr "Ammon. "
+
+#~ msgid "Fosf."
+#~ msgstr "Phosp."
+
+#~ msgid "Magnes."
+#~ msgstr "Magnes. "
+
+#~ msgid "DensitÃ "
+#~ msgstr "Density"
+
+#~ msgid "Legenda"
+#~ msgstr "Legenda "
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>PyAcqua Graph</b></span>\n"
+#~ "\n"
+#~ "<b>Tipo Vasca:</b> %s\n"
+#~ "<b>Data:</b> %s"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>PyAcqua Graph</b></span>\n"
+#~ "\n"
+#~ "<b>Type Bathtub:</b> %s\n"
+#~ "<b>Data:</b> %s"
+
+#~ msgid "Soldi"
+#~ msgstr "Moneies"
